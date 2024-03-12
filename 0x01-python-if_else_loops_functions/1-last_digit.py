@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import random
 n = random.randint(-10000, 10000)
-if number > 0:
+if n > 0:
     l = n % 10
 elif n < 0:
     temp = -n

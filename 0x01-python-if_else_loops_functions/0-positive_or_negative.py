@@ -12,4 +12,3 @@ elif number < 0:
 	}
 else:
 	print("{} is zero".format(number))
-	print("\n")

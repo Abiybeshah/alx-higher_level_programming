@@ -2,4 +2,4 @@
 for i in range(97, 123):
     if i != 101 and i != 113:
         i = chr(i)
-        print("{}".format(i), end = "")
+        print("{}".format(i), end="")

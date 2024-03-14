@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-if __name__ == "__main__":
+if __name__ != "__main__":
+    exit()
 import hidden_4 as hidn
 from sys import dir
 for name in dir(hidn)

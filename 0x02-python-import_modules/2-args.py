@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-if __name__ == "__main__":
+if __name__ != "__main__":
+    exit()
     from sys import argv
     i = len(argv) - 1
     if i == 0:

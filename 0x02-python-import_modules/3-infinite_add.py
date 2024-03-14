@@ -6,7 +6,7 @@ if __name__ != "__main__":
     i = 0
     res = 0
     for arg in argv:
-        if != 0:
+        if i != 0:
             res += int(arg)
         else:
             i += 1

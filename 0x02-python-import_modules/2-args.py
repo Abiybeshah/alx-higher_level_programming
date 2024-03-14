@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-if __name__ != "__main__":
-    exit()
+if __name__ == "__main__":
     from sys import argv
     i = len(argv) - 1
     if i == 0:
@@ -10,8 +9,9 @@ if __name__ != "__main__":
     else:
         print("{} arguments:".format(i))
 
-    j = 0
-    for arg in argv:
-        if j != 0:
-            print("{:d}: {:s}".format(i, arg))
-	    j += 1
+    if i >= 1:
+        i = 0
+        for arg in argv:
+            if i != 0:
+                print("{}: {}".format(i, arg))
+	i += 1

@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def magic_calculations(a, b):
     add, sub = magic_calculations_102.add, magic_calculations_102.sub
 

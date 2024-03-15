@@ -6,17 +6,17 @@ if __name__ == "__main__":
     if num != 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
-    i = int(argv[1])
+    a = int(argv[1])
     op = argv[2]
-    j = int(argv[3])
+    b = int(argv[3])
     if op == '+':
-        print(f"{i} {op} {j} = {add(i, j}}")
+        print(f"{a} {op} {b} = {add(a, b}}")
     elif op == '-':
-        print(f"{i} {op} {j} = {sub(i, j)}")
+        print(f"{a} {op} {b} = {sub(a, b)}")
     elif op == '*':
-        print(f"{i} {op} {j} = {mul(i, j)}")
+        print(f"{a} {op} {b} = {mul(a, b)}")
     elif op == '/':
-        print(f"{i} {op} {j} = {div(i, j)}")
+        print(f"{a} {op} {b} = {div(a, b)}")
     else:
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)

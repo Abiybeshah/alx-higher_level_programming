@@ -13,9 +13,9 @@ if __name__ == "__main__":
         print(f"{i} {op} {j} = {add(a, b)}")
     elif op == '-':
         print(f"{i} {op} {j} = {sub(a, b)}")
-    elif op = '*':
+    elif op == '*':
         print(f"{i} {op} {j} = {mul(a, b)}")
-    elif op = '/':
+    elif op == '/':
         print(f"{i} {op} {j} = {div(a, b)}")
     else:
         print("Unknown operator. Available operators: +, -, * and /")

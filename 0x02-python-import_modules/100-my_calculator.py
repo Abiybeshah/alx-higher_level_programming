@@ -10,7 +10,7 @@ if __name__ == "__main__":
     op = argv[2]
     b = int(argv[3])
     if op == '+':
-        print(f"{a} {op} {b} = {add(a, b}}")
+        print(f"{a} {op} {b} = {add(a, b)}")
     elif op == '-':
         print(f"{a} {op} {b} = {sub(a, b)}")
     elif op == '*':

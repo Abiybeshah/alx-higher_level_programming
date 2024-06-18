@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/node
 /* arguments on javascript */
 const args = process.argv;
 if (args.length <= undefined) {

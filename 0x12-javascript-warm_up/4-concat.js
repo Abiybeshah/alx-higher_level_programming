@@ -2,4 +2,6 @@
 /* create a sentence */
 const args = process.argv;
 
-console.log(args[2], ' is ', args[3]);
+const arg1 = args[2];
+const arg2 = args[3];
+console.log(arg1, ' is ', arg2);

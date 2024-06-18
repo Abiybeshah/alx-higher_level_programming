@@ -1,7 +1,7 @@
 #!/usr/bin/node
 /* arguments on javascript */
 const args = process.argv;
-if (args.length <= undefined) {
+if (args.length <= 2) {
   console.log('No argument');
 } else if (args.length === 3) {
   console.log('Argument found');

@@ -1,7 +1,5 @@
 #!/usr/bin/node
-/* write a script that prints my number: first arg converted
-* in to integers
-*/
+/* write a script that prints an int */
 const args = process.argv[2];
 
 if (args === undefined || isNaN(parseInt(args))) {

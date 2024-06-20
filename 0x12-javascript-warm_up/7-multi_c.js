@@ -2,7 +2,7 @@
 /* i love c */
 const x = process.argv[2];
 
-if (x === undefined || isNaN(parseInt(x)) {
+if (x === undefined || isNaN(parseInt(x))) {
   console.log('Missing number of occurrences');
 } else {
   for (let i = 0; i < parseInt(x); i++) {

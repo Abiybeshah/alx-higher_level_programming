@@ -2,12 +2,18 @@
 """ Finds Peak values """
 
 def find_peak(list_of_integers):
+    """
+    Finds a peak in a list of unsorted integers.
 
-     """   Finds a peak in a list of unsorted integers
-
-     """
+    Args:
+        list_of_integers (list): List of unsorted integers.
+    Returns:
+        int or None: The peak element in the list, \
+                or None if the list is empty.
+    """
     if not list_of_integers:
         return None
+
     low = 0
     high = len(list_of_integers) - 1
 
